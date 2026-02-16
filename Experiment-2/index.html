@@ -7,60 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="container">
-        <header class="header">
-            <h1>Simple Job Portal</h1>
-            <p class="tagline">Apply for jobs quickly and easily</p>
-        </header>
-
-        <section class="job-card">
-            <div class="job-left">
-                <h2>Web Developer</h2>
-                <p class="company">ABC Company</p>
-                <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
-            </div>
-
-            <div class="job-right">
-                <p><strong>Location:</strong> Remote</p>
-                <p><strong>Experience:</strong> 0–2 Years</p>
-                <p><strong>Type:</strong> Full Time</p>
-            </div>
-        </section>
-
-        <section class="apply-section">
-            <h3>Apply for this position</h3>
-
-            <form>
-                <div class="form-group">
-                    <label>Name</label>
-                    <input type="text" placeholder="Your name" required>
-                </div>
-
-                <div class="form-group">
-                    <label>Email</label>
-                    <input type="email" placeholder="abc@mail.com" required>
-                </div>
-
-                <div class="form-group">
-                    <label>Phone</label>
-                    <input type="tel" placeholder="1234567890" required>
-                </div>
-
-                <div class="form-group">
-                    <label>Experience (years)</label>
-                    <input type="number" required>
-                </div>
-
-                <div class="form-group">
-                    <label>Resume (PDF)</label>
-                    <input type="file" accept=".pdf" required>
-                </div>
-
-                <button type="submit">Apply Now</button>
-            </form>
-        </section>
+    <div id="title">
+    <h1>Job Portal</h1>
+    <h2>Find Jobs with ease</h2>
     </div>
-
+    <h3>Create New Listing</h3>
+    <p>Job Title</p>
+    <input type="text" id="jobTitle" placeholder="Title">
+    <p>Enter Company Name</p>
+    <input type="text" placeholder="Company Name" id="compName">
+    <p>Enter Skills</p>
+    <input type="text" placeholder="Skills" id="skills">
+    <p>Enter Experience</p>
+    <input type="text" placeholder="Experience" id="experience">
+    <p>Enter Location</p>
+    <input type="text" placeholder="Location" id="lctn"><br>
+    <input type="button" value="Create Listing" id="createListing">
+    <br><br>
+    <h3>New Listings</h3>
+    <div id="divTag">
+        
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
