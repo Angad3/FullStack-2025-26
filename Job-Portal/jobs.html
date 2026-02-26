@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jobs</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <h2>JobPortal</h2>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="create.html">Post Job</a>
+    </div>
+</nav>
+
+<div class="container">
+    <h2>All Jobs</h2>
+
+    <div class="search">
+        <input type="text" id="searchInput" placeholder="Search jobs...">
+        <button class="btn" onclick="searchJobs()">Search</button>
+    </div>
+
+    <div id="jobsList"></div>
+</div>
+
+<script src="js/jobs.js"></script>
+</body>
+</html>

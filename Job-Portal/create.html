@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Job</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <h2>JobPortal</h2>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="jobs.html">Jobs</a>
+    </div>
+</nav>
+
+<div class="container">
+    <h2>Create Job Listing</h2>
+
+    <input type="text" id="jobTitle" placeholder="Job Title">
+    <input type="text" id="compName" placeholder="Company Name">
+    <input type="text" id="skills" placeholder="Skills">
+    <input type="text" id="experience" placeholder="Experience (years)">
+    <input type="text" id="lctn" placeholder="Location">
+
+    <button class="btn" id="createListing">Create Listing</button>
+
+    <h2 style="margin-top:40px;">Your Listings</h2>
+    <div id="jobsList"></div>
+</div>
+
+<script src="js/create.js"></script>
+
+</body>
+</html>
